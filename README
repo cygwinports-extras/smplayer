@@ -1,0 +1,117 @@
+smplayer
+------------------------------------------
+SMPlayer intends to be a complete front-end for MPlayer, from basic 
+features like playing videos, DVDs, and VCDs to more advanced features 
+like support for MPlayer filters and more.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  libQtCore4-4.4.1-1
+  libQtGui4-4.4.1-1
+  libQtNetwork4-4.4.1-1
+  libQtXml4-4.4.1-1
+  mplayer-26991-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-20080524-2
+  cygport-0.4.0-1
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  make-3.81-1
+
+Canonical website:
+  http://smplayer.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/smplayer/
+
+-------------------------------------------
+
+Build instructions:
+  unpack smplayer-0.6.2-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./smplayer-0.6.2-X.cygport all
+
+This will create:
+  /usr/src/smplayer-0.6.2-X-src.tar.bz2
+  /usr/src/smplayer-0.6.2-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/smplayer.sh
+  /usr/bin/smplayer.exe
+  /usr/share/applications/smplayer.desktop
+  /usr/share/applications/smplayer_enqueue.desktop
+  /usr/share/doc/smplayer-0.6.2/Audio_equalizer.txt
+  /usr/share/doc/smplayer-0.6.2/Changelog
+  /usr/share/doc/smplayer-0.6.2/Configuring_the_toolbars.txt
+  /usr/share/doc/smplayer-0.6.2/Copying.txt
+  /usr/share/doc/smplayer-0.6.2/Finding_subtitles.txt
+  /usr/share/doc/smplayer-0.6.2/Install.txt
+  /usr/share/doc/smplayer-0.6.2/Not_so_obvious_things.txt
+  /usr/share/doc/smplayer-0.6.2/Portable_Edition.txt
+  /usr/share/doc/smplayer-0.6.2/Readme.txt
+  /usr/share/doc/smplayer-0.6.2/Release_notes.txt
+  /usr/share/doc/smplayer-0.6.2/de/gpl.html
+  /usr/share/doc/smplayer-0.6.2/en/faq.html
+  /usr/share/doc/smplayer-0.6.2/en/gpl.html
+  /usr/share/doc/smplayer-0.6.2/es/gpl.html
+  /usr/share/doc/smplayer-0.6.2/ja/faq.html
+  /usr/share/doc/smplayer-0.6.2/ja/gpl.html
+  /usr/share/doc/smplayer-0.6.2/ro/gpl.html
+  /usr/share/doc/smplayer-0.6.2/ru/faq.html
+  /usr/share/doc/smplayer-0.6.2/ru/gpl.html
+  /usr/share/icons/hicolor/16x16/apps/smplayer.png
+  /usr/share/icons/hicolor/22x22/apps/smplayer.png
+  /usr/share/icons/hicolor/32x32/apps/smplayer.png
+  /usr/share/icons/hicolor/64x64/apps/smplayer.png
+  /usr/share/man/man1/smplayer.1.gz
+  /usr/share/smplayer/input.conf
+  /usr/share/smplayer/shortcuts/default.keys
+  /usr/share/smplayer/translations/qt_fr.qm
+  /usr/share/smplayer/translations/smplayer_bg.qm
+  /usr/share/smplayer/translations/smplayer_ca.qm
+  /usr/share/smplayer/translations/smplayer_cs.qm
+  /usr/share/smplayer/translations/smplayer_de.qm
+  /usr/share/smplayer/translations/smplayer_el_GR.qm
+  /usr/share/smplayer/translations/smplayer_en_US.qm
+  /usr/share/smplayer/translations/smplayer_es.qm
+  /usr/share/smplayer/translations/smplayer_eu.qm
+  /usr/share/smplayer/translations/smplayer_fi.qm
+  /usr/share/smplayer/translations/smplayer_fr.qm
+  /usr/share/smplayer/translations/smplayer_hu.qm
+  /usr/share/smplayer/translations/smplayer_it.qm
+  /usr/share/smplayer/translations/smplayer_ja.qm
+  /usr/share/smplayer/translations/smplayer_ka.qm
+  /usr/share/smplayer/translations/smplayer_ko.qm
+  /usr/share/smplayer/translations/smplayer_mk.qm
+  /usr/share/smplayer/translations/smplayer_nl.qm
+  /usr/share/smplayer/translations/smplayer_pl.qm
+  /usr/share/smplayer/translations/smplayer_pt_BR.qm
+  /usr/share/smplayer/translations/smplayer_pt_PT.qm
+  /usr/share/smplayer/translations/smplayer_ro_RO.qm
+  /usr/share/smplayer/translations/smplayer_ru_RU.qm
+  /usr/share/smplayer/translations/smplayer_sk.qm
+  /usr/share/smplayer/translations/smplayer_sl_SI.qm
+  /usr/share/smplayer/translations/smplayer_sr.qm
+  /usr/share/smplayer/translations/smplayer_sv.qm
+  /usr/share/smplayer/translations/smplayer_tr.qm
+  /usr/share/smplayer/translations/smplayer_uk_UA.qm
+  /usr/share/smplayer/translations/smplayer_zh_CN.qm
+  /usr/share/smplayer/translations/smplayer_zh_TW.qm
+
+------------------
+
+Port Notes:
+
+----- version 0.6.2-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
