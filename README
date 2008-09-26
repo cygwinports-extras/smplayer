@@ -29,15 +29,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack smplayer-0.6.2-X-src.tar.bz2
+  unpack smplayer-0.6.3-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./smplayer-0.6.2-X.cygport all
+  cygport ./smplayer-0.6.3-X.cygport all
 
 This will create:
-  /usr/src/smplayer-0.6.2-X-src.tar.bz2
-  /usr/src/smplayer-0.6.2-X.tar.bz2
+  /usr/src/smplayer-0.6.3-X-src.tar.bz2
+  /usr/src/smplayer-0.6.3-X.tar.bz2
 
 -------------------------------------------
 
@@ -47,25 +47,30 @@ Files included in the binary package:
   /usr/bin/smplayer.exe
   /usr/share/applications/smplayer.desktop
   /usr/share/applications/smplayer_enqueue.desktop
-  /usr/share/doc/smplayer-0.6.2/Audio_equalizer.txt
-  /usr/share/doc/smplayer-0.6.2/Changelog
-  /usr/share/doc/smplayer-0.6.2/Configuring_the_toolbars.txt
-  /usr/share/doc/smplayer-0.6.2/Copying.txt
-  /usr/share/doc/smplayer-0.6.2/Finding_subtitles.txt
-  /usr/share/doc/smplayer-0.6.2/Install.txt
-  /usr/share/doc/smplayer-0.6.2/Not_so_obvious_things.txt
-  /usr/share/doc/smplayer-0.6.2/Portable_Edition.txt
-  /usr/share/doc/smplayer-0.6.2/Readme.txt
-  /usr/share/doc/smplayer-0.6.2/Release_notes.txt
-  /usr/share/doc/smplayer-0.6.2/de/gpl.html
-  /usr/share/doc/smplayer-0.6.2/en/faq.html
-  /usr/share/doc/smplayer-0.6.2/en/gpl.html
-  /usr/share/doc/smplayer-0.6.2/es/gpl.html
-  /usr/share/doc/smplayer-0.6.2/ja/faq.html
-  /usr/share/doc/smplayer-0.6.2/ja/gpl.html
-  /usr/share/doc/smplayer-0.6.2/ro/gpl.html
-  /usr/share/doc/smplayer-0.6.2/ru/faq.html
-  /usr/share/doc/smplayer-0.6.2/ru/gpl.html
+  /usr/share/doc/smplayer-0.6.3/COPYING.txt
+  /usr/share/doc/smplayer-0.6.3/ChangeLog
+  /usr/share/doc/smplayer-0.6.3/INSTALL.txt
+  /usr/share/doc/smplayer-0.6.3/README.txt
+  /usr/share/doc/smplayer/Audio_equalizer.txt
+  /usr/share/doc/smplayer/Changelog
+  /usr/share/doc/smplayer/Configuring_the_toolbars.txt
+  /usr/share/doc/smplayer/Copying.txt
+  /usr/share/doc/smplayer/Finding_subtitles.txt
+  /usr/share/doc/smplayer/Install.txt
+  /usr/share/doc/smplayer/Not_so_obvious_things.txt
+  /usr/share/doc/smplayer/Portable_Edition.txt
+  /usr/share/doc/smplayer/Readme.txt
+  /usr/share/doc/smplayer/Release_notes.txt
+  /usr/share/doc/smplayer/de/gpl.html
+  /usr/share/doc/smplayer/en/faq.html
+  /usr/share/doc/smplayer/en/gpl.html
+  /usr/share/doc/smplayer/es/gpl.html
+  /usr/share/doc/smplayer/ja/faq.html
+  /usr/share/doc/smplayer/ja/gpl.html
+  /usr/share/doc/smplayer/nl/gpl.html
+  /usr/share/doc/smplayer/ro/gpl.html
+  /usr/share/doc/smplayer/ru/faq.html
+  /usr/share/doc/smplayer/ru/gpl.html
   /usr/share/icons/hicolor/16x16/apps/smplayer.png
   /usr/share/icons/hicolor/22x22/apps/smplayer.png
   /usr/share/icons/hicolor/32x32/apps/smplayer.png
@@ -73,7 +78,9 @@ Files included in the binary package:
   /usr/share/man/man1/smplayer.1.gz
   /usr/share/smplayer/input.conf
   /usr/share/smplayer/shortcuts/default.keys
+  /usr/share/smplayer/shortcuts/sda.keys
   /usr/share/smplayer/translations/qt_fr.qm
+  /usr/share/smplayer/translations/smplayer_ar_SY.qm
   /usr/share/smplayer/translations/smplayer_bg.qm
   /usr/share/smplayer/translations/smplayer_ca.qm
   /usr/share/smplayer/translations/smplayer_cs.qm
@@ -89,6 +96,7 @@ Files included in the binary package:
   /usr/share/smplayer/translations/smplayer_ja.qm
   /usr/share/smplayer/translations/smplayer_ka.qm
   /usr/share/smplayer/translations/smplayer_ko.qm
+  /usr/share/smplayer/translations/smplayer_ku.qm
   /usr/share/smplayer/translations/smplayer_mk.qm
   /usr/share/smplayer/translations/smplayer_nl.qm
   /usr/share/smplayer/translations/smplayer_pl.qm
@@ -108,6 +116,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.6.3-1 -----
+Version bump.
 
 ----- version 0.6.2-1 -----
 Initial release for Cygwin.

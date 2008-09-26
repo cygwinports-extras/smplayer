@@ -10,7 +10,7 @@
  
  DATA_PATH=$(PREFIX)/share/smplayer
 -DOC_PATH=$(PREFIX)/share/doc/packages/smplayer
-+DOC_PATH=$(PREFIX)/share/doc/smplayer-0.6.2
++DOC_PATH=$(PREFIX)/share/doc/smplayer
  TRANSLATION_PATH=$(PREFIX)/share/smplayer/translations
 -CONF_PATH=$(CONF_PREFIX)/etc/smplayer
 +CONF_PATH=/etc/smplayer
