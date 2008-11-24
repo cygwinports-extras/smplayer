@@ -6,16 +6,16 @@ like support for MPlayer filters and more.
 
 Runtime requirements:
   cygwin-1.5.25-15
-  libQtCore4-4.4.1-1
-  libQtGui4-4.4.1-1
-  libQtNetwork4-4.4.1-1
-  libQtXml4-4.4.1-1
+  libQtCore4-4.4.2-1
+  libQtGui4-4.4.2-1
+  libQtNetwork4-4.4.2-1
+  libQtXml4-4.4.2-1
   mplayer-26991-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  binutils-20080524-2
-  cygport-0.4.0-1
+  binutils-20080624-2
+  cygport-0.4.2-1
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
   make-3.81-1
@@ -29,15 +29,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack smplayer-0.6.3-X-src.tar.bz2
+  unpack smplayer-0.6.5.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./smplayer-0.6.3-X.cygport all
+  cygport ./smplayer-0.6.5.1-X.cygport all
 
 This will create:
-  /usr/src/smplayer-0.6.3-X-src.tar.bz2
-  /usr/src/smplayer-0.6.3-X.tar.bz2
+  /usr/src/smplayer-0.6.5.1-X-src.tar.bz2
+  /usr/src/smplayer-0.6.5.1-X.tar.bz2
 
 -------------------------------------------
 
@@ -47,10 +47,10 @@ Files included in the binary package:
   /usr/bin/smplayer.exe
   /usr/share/applications/smplayer.desktop
   /usr/share/applications/smplayer_enqueue.desktop
-  /usr/share/doc/smplayer-0.6.3/COPYING.txt
-  /usr/share/doc/smplayer-0.6.3/ChangeLog
-  /usr/share/doc/smplayer-0.6.3/INSTALL.txt
-  /usr/share/doc/smplayer-0.6.3/README.txt
+  /usr/share/doc/smplayer-0.6.5.1/COPYING.txt
+  /usr/share/doc/smplayer-0.6.5.1/ChangeLog
+  /usr/share/doc/smplayer-0.6.5.1/INSTALL.txt
+  /usr/share/doc/smplayer-0.6.5.1/README.txt
   /usr/share/doc/smplayer/Audio_equalizer.txt
   /usr/share/doc/smplayer/Changelog
   /usr/share/doc/smplayer/Configuring_the_toolbars.txt
@@ -79,7 +79,6 @@ Files included in the binary package:
   /usr/share/smplayer/input.conf
   /usr/share/smplayer/shortcuts/default.keys
   /usr/share/smplayer/shortcuts/sda.keys
-  /usr/share/smplayer/translations/qt_fr.qm
   /usr/share/smplayer/translations/smplayer_ar_SY.qm
   /usr/share/smplayer/translations/smplayer_bg.qm
   /usr/share/smplayer/translations/smplayer_ca.qm
@@ -91,6 +90,7 @@ Files included in the binary package:
   /usr/share/smplayer/translations/smplayer_eu.qm
   /usr/share/smplayer/translations/smplayer_fi.qm
   /usr/share/smplayer/translations/smplayer_fr.qm
+  /usr/share/smplayer/translations/smplayer_gl.qm
   /usr/share/smplayer/translations/smplayer_hu.qm
   /usr/share/smplayer/translations/smplayer_it.qm
   /usr/share/smplayer/translations/smplayer_ja.qm
@@ -116,6 +116,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.6.5.1-1 -----
+Version bump.
 
 ----- version 0.6.3-1 -----
 Version bump.

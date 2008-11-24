@@ -3,7 +3,7 @@ inherit qt4
 DESCRIPTION="Qt4 frontend for MPlayer"
 HOMEPAGE="http://smplayer.sourceforge.net/"
 SRC_URI="mirror://sourceforge/${PN}/${P}.tar.bz2"
-PATCH_URI="0.6.2-install-dirs.patch"
+PATCH_URI="0.6.5.1-install-dirs.patch"
 
 src_compile() {
 	lndirs

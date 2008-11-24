@@ -1,6 +1,6 @@
---- origsrc/smplayer-0.6.2/Makefile	2008-04-28 19:47:10.000000000 -0500
-+++ src/smplayer-0.6.2/Makefile	2008-09-07 02:21:44.121912000 -0500
-@@ -1,13 +1,13 @@
+--- origsrc/smplayer-0.6.5.1/Makefile	2008-11-01 18:32:22.000000000 -0500
++++ src/smplayer-0.6.5.1/Makefile	2008-11-23 20:48:13.753331800 -0600
+@@ -1,11 +1,11 @@
  
 -PREFIX=/usr/local
 +PREFIX=/usr
@@ -12,8 +12,5 @@
 -DOC_PATH=$(PREFIX)/share/doc/packages/smplayer
 +DOC_PATH=$(PREFIX)/share/doc/smplayer
  TRANSLATION_PATH=$(PREFIX)/share/smplayer/translations
--CONF_PATH=$(CONF_PREFIX)/etc/smplayer
-+CONF_PATH=/etc/smplayer
  THEMES_PATH=$(PREFIX)/share/smplayer/themes
  SHORTCUTS_PATH=$(PREFIX)/share/smplayer/shortcuts
- 
