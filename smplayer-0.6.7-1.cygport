@@ -10,3 +10,11 @@ src_compile() {
 	cd ${B}
 	cygmake
 }
+
+src_install() {
+	cd ${B}
+	cyginstall
+
+	# coreutils .exe handling
+	strip ${D}/usr/bin/*
+}

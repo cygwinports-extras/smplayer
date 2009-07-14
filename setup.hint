@@ -1,5 +1,5 @@
-category: Audio Video
-requires: libQtCore4 libQtGui4 libQtNetwork4 libQtXml4 mplayer
+category: Audio KDE Video
+requires: libgcc1 libQtCore4 libQtGui4 libQtNetwork4 libQtXml4 libstdc++6 mplayer
 sdesc: "Qt4 frontend for MPlayer"
 ldesc: "SMPlayer intends to be a complete front-end for MPlayer, from 
 basic features like playing videos, DVDs, and VCDs to more advanced 
