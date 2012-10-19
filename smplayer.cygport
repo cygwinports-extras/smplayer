@@ -1,0 +1,21 @@
+inherit qt4
+
+NAME="smplayer"
+VERSION=0.8.1
+RELEASE=1
+CATEGORY="Video"
+SUMMARY="Qt4 frontend for MPlayer"
+DESCRIPTION="SMPlayer intends to be a complete front-end for MPlayer, from
+basic features like playing videos, DVDs, and VCDs to more advanced features
+like support for MPlayer filters and more."
+HOMEPAGE="http://smplayer.sourceforge.net/"
+SRC_URI="mirror://sourceforge/${PN}/${P}.tar.bz2"
+PATCH_URI="0.6.5.1-install-dirs.patch"
+
+REQUIRES="mplayer"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygmake
+}
