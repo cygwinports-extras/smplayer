@@ -1,7 +1,7 @@
 inherit qt4
 
 NAME="smplayer"
-VERSION=0.8.1
+VERSION=0.8.3
 RELEASE=1
 CATEGORY="Video"
 SUMMARY="Qt4 frontend for MPlayer"
