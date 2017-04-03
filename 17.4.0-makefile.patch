@@ -1,0 +1,20 @@
+--- origsrc/smplayer-17.4.0/Makefile	2017-01-29 18:25:26.000000000 -0600
++++ src/smplayer-17.4.0/Makefile	2017-04-02 22:00:49.074560100 -0500
+@@ -23,11 +23,14 @@ DEFS=DATA_PATH=\\\"$(DATA_PATH)\\\" \
+ 
+ all: src/smplayer webserver/simple_web_server
+ 
+-src/smplayer:
+-	./get_svn_revision.sh
+-	+cd src && $(QMAKE) $(QMAKE_OPTS) && $(DEFS) make
++src/smplayer: src/Makefile
++	cd src && $(DEFS) make
+ 	cd src && $(LRELEASE) smplayer.pro
+ 
++src/Makefile:
++	./get_svn_revision.sh
++	cd src && $(QMAKE) $(QMAKE_OPTS)
++
+ webserver/simple_web_server:
+ 	cd webserver && make
+ 

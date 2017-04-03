@@ -1,5 +1,5 @@
---- origsrc/smplayer-0.6.5.1/Makefile	2008-11-01 18:32:22.000000000 -0500
-+++ src/smplayer-0.6.5.1/Makefile	2008-11-23 20:48:13.753331800 -0600
+--- origsrc/smplayer-17.4.0/Makefile	2017-01-29 18:25:26.000000000 -0600
++++ src/smplayer-17.4.0/Makefile	2017-04-02 22:00:49.074560100 -0500
 @@ -1,11 +1,11 @@
  
 -PREFIX=/usr/local
@@ -14,8 +14,8 @@
  TRANSLATION_PATH=$(PREFIX)/share/smplayer/translations
  THEMES_PATH=$(PREFIX)/share/smplayer/themes
  SHORTCUTS_PATH=$(PREFIX)/share/smplayer/shortcuts
-@@ -59,7 +59,7 @@ install: src/smplayer
- 	install -m 644 Changelog *.txt $(DESTDIR)$(DOC_PATH)
+@@ -49,7 +52,7 @@ install: all
+ 	install -m 755 webserver/simple_web_server $(DESTDIR)$(PREFIX)/bin/
  
  	-install -d $(DESTDIR)$(DOC_PATH)
 -	tar -C docs/ --exclude=.svn -c -f - . | tar -C $(DESTDIR)$(DOC_PATH) -x -f -

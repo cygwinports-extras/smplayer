@@ -1,18 +1,18 @@
-inherit qt4-qmake
+inherit qt5-qmake
 
 NAME="smplayer"
-VERSION=0.8.6
+VERSION=17.4.0
 RELEASE=1
 CATEGORY="Video"
-SUMMARY="Qt4 frontend for MPlayer"
+SUMMARY="Qt frontend for MPlayer"
 DESCRIPTION="SMPlayer intends to be a complete front-end for MPlayer, from
 basic features like playing videos, DVDs, and VCDs to more advanced features
 like support for MPlayer filters and more."
 HOMEPAGE="http://smplayer.sourceforge.net/"
 SRC_URI="mirror://sourceforge/smplayer/${NAME}-${VERSION}.tar.bz2"
 PATCH_URI="
-	0.6.5.1-install-dirs.patch
-	0.8.6-makefile.patch
+	17.4.0-install-dirs.patch
+	17.4.0-makefile.patch
 "
 
 REQUIRES="mplayer"
@@ -22,7 +22,7 @@ src_compile() {
 	cd ${B}
 	./get_svn_revision.sh || error
 	pushd src
-	cygqmake4
+	cygqmake5
 	popd
 	cygmake
 }
